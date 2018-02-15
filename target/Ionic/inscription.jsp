@@ -26,5 +26,5 @@
     UserDAO udao=new UserDAO();
     
     udao.insertUser(co, base, us);
-	response.sendRedirect("https://powerful-journey-27069.herokuapp.com/");
+	out.println(nom);
 %>
