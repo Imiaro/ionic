@@ -38,7 +38,7 @@
 			
 			UserDAO userdao=new UserDAO();
 			User user=new User(nom,email,mdp,0);
-			userdao.insert(co,"utilisateur",user);
+			userdao.insertUser(co,"utilisateur",user);
 			
 			response.sendRedirect("index.jsp");
 	%>	
