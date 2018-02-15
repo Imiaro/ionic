@@ -140,7 +140,7 @@
                                     <%
                                         out.println(u.getScore());
                                     %>
-                                    points!!
+                                    point(s)!!
                                     </p>
 
                 </div>
