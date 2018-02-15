@@ -36,8 +36,8 @@
 			String email=request.getParameter("email");
 			String mdp=request.getParameter("mdp");
 			
-			UserDAO userdao=new UserDAO(nom,email,mdp,0);
-			User user=new User();
+			UserDAO userdao=new UserDAO();
+			User user=new User(nom,email,mdp,0);
 			userdao.insert(co,"utilisateur",user);
 			
 			response.sendRedirect("index.jsp");
