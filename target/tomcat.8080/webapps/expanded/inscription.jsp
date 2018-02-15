@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <%-- 
     Document   : Connexion
     Created on : 9 févr. 2018, 06:37:30
@@ -11,20 +12,14 @@
 <%@page import="org.json.JSONArray"%>
 <%@page import="org.json.JSONObject"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html class="no-js">
+<head>
+	<title></title>
+</head>
+<body>
 <%
-    
-    Connexion c=new Connexion();
-    DB co=c.Co();
-    String base=c.getBase();
-    
-    String nom=request.getParameter("nom");
-    String email=request.getParameter("email");
-    String mdp=request.getParameter("mdp");
-    
-    User us=new User(nom, email, mdp, 0);
-    
-    UserDAO udao=new UserDAO();
-    
-    udao.insertUser(co, base, us);
-	out.println(nom);
+	out.println("pouloulou");
 %>
+</body>
+
+

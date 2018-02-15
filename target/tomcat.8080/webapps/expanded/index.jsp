@@ -59,7 +59,7 @@
                     <li class=""><a href="#menu1">Plouf</li><!-- menu links-->
                     <li><a href="#section-menu2">Meilleur joueur</a></li>  
                     <li><a href="#section-menu3">Telecharger l'application</li>
-                    <li><a href="#section-menu4">Telecharger l'application</li>
+                    <li><a href="#section-menu4">Inscrivez-vous ici</li>
                 </ul>
             </div>
 
@@ -202,7 +202,7 @@
                 <div class="col-md-8">
                     <div  id="contact-form" >
 							
-							<form class="form-horizontal"  name="form" action="inscription.jsp" method="post">
+							<form action="inscription.jsp" method="POST">
 								<div class="col-md-12 form-group">
 									<label for="subject">Nom</label>
 									<input type="text" class="form-control" name="nom" id="nom" placeholder="Votre nom"  />
@@ -215,8 +215,9 @@
 									<label for="subject">Mot de passe</label>
 									<input type="password" class="form-control" name="mdp" id="mdp" placeholder="Mot de passe"  />
 								</div>
-
-								<button type="submit" style="height: 40px; margin-bottom: 50px;" class="col-md-offset-4 col-md-4 btn btn-primary">Inscription</button>
+								<div class="col-md-12 form-group">
+									<button type="submit" class="btn btn-primary"> Inscription</button>
+								</div>
 							</form>
                         
 
@@ -227,6 +228,7 @@
 
         </div>
     </section>
+	<a href="inscription.jsp">qsdf</a>
     <!--END menu4 SECTION-->
     <!-- FOOTER SECTION-->
     <section id="footer" class="section footer">
