@@ -59,6 +59,7 @@
                     <li class=""><a href="#menu1">Plouf</li><!-- menu links-->
                     <li><a href="#section-menu2">Meilleur joueur</a></li>  
                     <li><a href="#section-menu3">Telecharger l'application</li>
+                    <li><a href="#section-menu4">Telecharger l'application</li>
                 </ul>
             </div>
 
