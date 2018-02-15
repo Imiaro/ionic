@@ -14,6 +14,10 @@
 <%@page import="com.mongodb.DB"%>
 <%@page import="connexion.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="com.mongodb.MongoClient"%>
+<%@page import="com.mongodb.MongoClientURI"%>
+<%@page import="com.mongodb.client.MongoDatabase"%>
+
 <html class="no-js">
 <!--<![endif]-->
       <!-- HEAD SECTION-->
