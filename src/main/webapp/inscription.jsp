@@ -20,9 +20,8 @@
     String nom=request.getParameter("nom");
     String email=request.getParameter("email");
     String mdp=request.getParameter("mdp");
-    int score= Integer.parseInt(request.getParameter("score"));
     
-    User us=new User(nom, email, mdp, score);
+    User us=new User(nom, email, mdp, 0);
     
     UserDAO udao=new UserDAO();
     
