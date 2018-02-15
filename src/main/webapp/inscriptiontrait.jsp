@@ -7,6 +7,18 @@
 <%@page import="java.sql.*"%>
 <%@page import="connexion.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="com.mongodb.client.FindIterable"%>
+<%@page import="org.bson.Document"%>
+<%@page import="com.mongodb.DBObject"%>
+<%@page import="com.mongodb.DBCursor"%>
+<%@page import="com.mongodb.BasicDBObject"%>
+<%@page import="com.mongodb.DBCollection"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="connexion.User"%>
+<%@page import="com.mongodb.DB"%>
+<%@page import="com.mongodb.MongoClient"%>
+<%@page import="com.mongodb.MongoClientURI"%>
+<%@page import="com.mongodb.client.MongoDatabase"%>
 
 <!DOCTYPE html>
 <html>
