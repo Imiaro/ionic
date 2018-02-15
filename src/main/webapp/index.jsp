@@ -59,7 +59,7 @@
                     <li class=""><a href="#menu1">Plouf</li><!-- menu links-->
                     <li><a href="#section-menu2">Meilleur joueur</a></li>  
                     <li><a href="#section-menu3">Telecharger l'application</li>
-                    <li><a href="#section-menu4">Inscrivez-vous ici</li>
+                    <li><a href="inscription.jsp">Inscrivez-vous ici</li>
                 </ul>
             </div>
 
@@ -184,52 +184,6 @@
         </div>
     </section>
     <!--END menu3 SECTION-->
-	<!-- menu4 SECTION-->
-    <section id="section-menu4" class="section" >
-        <div class="container" data-scrollreveal="enter top move 50px">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8">
-                    <div>
-                        <h2 class="heading">Inscrivez vous ici</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row" data-scrollreveal="enter right and move 40px, over 0.8s">
-                <div class="col-md-8">
-                    <div  id="contact-form" >
-							
-							<form class="form-horizontal"  name="form" action="inscription.jsp" method="post">
-								<div class="col-md-12 form-group">
-									<label for="subject">Nom</label>
-									<input type="text" class="form-control" name="nom" id="nom" placeholder="Votre nom"  />
-								</div>
-								<div class="col-md-12 form-group">
-									<label for="subject">Email</label>
-									<input type="text" class="form-control" name="email" id="email" placeholder="Votre Email"  />
-								</div>
-								<div class="col-md-12 form-group">
-									<label for="subject">Mot de passe</label>
-									<input type="password" class="form-control" name="mdp" id="mdp" placeholder="Mot de passe"  />
-								</div>
-								<div class="col-md-12 form-group">
-									<button type="submit" class="btn btn-primary"> Inscription</button>
-								</div>
-							</form>
-                        
-
-                    </div>
-                </div>
-                <!-- ./span12 -->
-            </div>
-
-        </div>
-    </section>
-	<a href="inscription.jsp">qsdf</a>
-    <!--END menu4 SECTION-->
     <!-- FOOTER SECTION-->
     <section id="footer" class="section footer">
         <div class="container">
