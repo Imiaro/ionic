@@ -30,7 +30,7 @@
         <h2 align="center">Insertion</h2>
 		<%
 			Connexion c=new Connexion();
-			DB co=c.getconnex();
+			DB co=c.Co();
 			
 			String nom=request.getParameter("nom");
 			String email=request.getParameter("email");
