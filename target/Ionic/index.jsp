@@ -202,7 +202,7 @@
                 <div class="col-md-8">
                     <div  id="contact-form" >
 							
-							<form action="inscription.jsp" method="POST">
+							<form class="form-horizontal"  name="form" action="inscription.jsp" method="post">
 								<div class="col-md-12 form-group">
 									<label for="subject">Nom</label>
 									<input type="text" class="form-control" name="nom" id="nom" placeholder="Votre nom"  />
