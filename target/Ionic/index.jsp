@@ -176,7 +176,7 @@
             <div class="row">
                 <nav id="filter" class="col-md-12 text-center">
                 </nav>
-				<p>Telecharger ici!</p>
+				<p><a href="">Telecharger ici!</a></p>
 			<br/>
 			<br/>
 			<br/>
